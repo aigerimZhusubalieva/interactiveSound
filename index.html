@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Sound</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Tone.js"></script>
+    <script src="script.js" charset="utf-8" defer></script>
+    
+</head>
+<body>
+    <!-- <audio id = "sounds">
+        <source src="hometownSoundscape.mp3" type="audio/mpeg">
+        <source src="hometownSoundscape.mp3" type="audio/ogg">  2 different types of audio
+            Audio file is not supported by your browser :(
+    </audio> -->
+    <audio id = "saxSolo" loop>
+        <source src="saxSolo.wav" type="audio/wav">
+        Audio file is not supported by your browser :(
+    </audio>
+    <audio id = "drums" loop>
+        <source src="drums.wav" type="audio/wav">
+        Audio file is not supported by your browser :(
+    </audio>
+    <audio id = "woman" loop>
+        <source src="woman.wav" type="audio/wav">
+        Audio file is not supported by your browser :(
+    </audio>
+    <div class="intro">
+        <h1>Play the beats along with Saxophone Solo, Drums, or Singing to create your unique piece!</h1>
+        <t>   Use the buttons A-L to make the beat</t>
+        <t>Click on the buttons below to play/pause</t>
+        <div id="buttons">
+            <div class = "button" id = "saxB">Saxophone</div>
+            <div class = "button" id = "drumsB">Drums</div>
+            <div class = "button" id = "womanB">Singing</div>
+        </div>
+    </div>
+</body>
+</html>
